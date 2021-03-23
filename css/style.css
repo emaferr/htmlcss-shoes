@@ -6,13 +6,30 @@
 }
 /* end Utility */
 
-header{
-    height: 50px;
-    background-color: blanchedalmond;
+/* Header */
+.fix_head{
+    position: fixed;
+    top: 3%;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    z-index: 9999;
+}
+
+.number{
+    border: 0.1rem solid #414040;
+    border-radius: 50%;
+    padding: 0.25rem 0.5rem;
+    background-color: #faf0e1;
+    
 }
 
 .number_contain{
+    position: absolute;
+    top: 20%;
+    right: 2%;
 }
+/* end Header */
 
 .contain{
     height: 100VH;
@@ -34,7 +51,6 @@ header{
 }
 
 .shoes_txt{
-    font-family: 'Rubik Mono One', sans-serif;
     font-size: 2.5VW;
     padding-top: 35%;
     
